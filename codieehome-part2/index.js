@@ -12,8 +12,8 @@ const bodyParser = require('body-parser')
 // var dotenv = require('dotenv');
 // dotenv.config();
 
-const client_id = 'iHPAguKSTrw8SQma_gzsg'; // Your app's client ID
-const client_secret = 'oFu1R8iUV7jiOq1D5c3txNMz8CnxzWKf'; // Your app's secret
+const client_id = 'app-client-id'; // Your app's client ID
+const client_secret = 'app-client-secret'; // Your app's secret
 const redirect_uri = process.env.REDIRECTURL; // The URI you will send your user to after auth
 const port = process.env.PORT || 8081;
 
